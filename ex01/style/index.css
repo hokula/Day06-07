@@ -1,0 +1,35 @@
+header {
+  text-align: center;
+  font-size: 25px;
+  color: #ff5050;
+  margin-bottom: 20px;
+}
+.prvi-red,
+.drugi-red,
+.treci-red {
+  display: flex;
+}
+
+.prvi-red,
+.drugi-red,
+.treci-red > div {
+  flex-grow: 1;
+}
+
+img {
+  margin-left: 130px;
+  margin-right: 130px;
+  width: 350px;
+  height: 200px;
+}
+.naslov {
+  color: #3399ff;
+  margin-left: 140px;
+}
+
+.tekst {
+  margin-left: 140px;
+  width: 350px;
+  height: 200px;
+  margin-bottom: 20px;
+}
